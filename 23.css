@@ -1,0 +1,27 @@
+/*sarchInput{
+    display:none;
+    border:1,5px solid #ccc;
+    height:30px;
+    border-radius: 10px;
+}
+
+.shadow{
+    box-shadow:10px 10px 10px black;
+}
+.apper{
+    display: block;
+}
+
+hidhlight{
+    background: orange;
+}*/
+
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dark{
+    background: black;
+    color: white;
+}

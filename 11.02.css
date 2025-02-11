@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 15px 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+h1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lonol {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff4081;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.subscribe {
+    background: #00c853;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+.resipe {
+    margin-top: 20px;
+}
+
+.recipe-list {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.resipe-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-width: 200px;
+}
+
+.resipe-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.resipe-card h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.resipe-card p {
+    color: gray;
+}
